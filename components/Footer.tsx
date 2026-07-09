@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="grid gap-12 md:grid-cols-[1.4fr_1fr_1fr_1fr]">
           <div>
             <p className="font-display text-3xl">
-              Alba<span className="text-clay">.</span>dental
+              Sket<span className="text-clay">.</span>dental
             </p>
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-cream/70">
               A calmer kind of dentistry. Modern care, honest advice and a team
@@ -24,8 +24,8 @@ export default function Footer() {
               <br />
               London, W1 4QT
               <br />
-              <a href="tel:+442071234567" className="hover:text-clay">
-                +44 20 7123 4567
+              <a href="tel:+251 928820425" className="hover:text-clay">
+                +251 928820425
               </a>
               <br />
               <a href="mailto:hello@albadental.co" className="hover:text-clay">

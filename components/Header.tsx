@@ -50,7 +50,7 @@ export default function Header() {
             </svg>
           </span>
           <span className="font-display text-xl tracking-tight">
-            Alba<span className="text-clay">.</span>dental
+            Sket<span className="text-clay">.</span>dental
           </span>
         </Link>
 
