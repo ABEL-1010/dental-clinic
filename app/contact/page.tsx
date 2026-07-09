@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import BookingForm from "@/components/BookingForm";
 
 export const metadata: Metadata = {
-  title: "Contact & booking — Alba Dental Studio",
+  title: "Contact & booking — Sket Dental Studio",
   description:
-    "Book an appointment at Alba Dental Studio. Find our address, opening hours and contact details.",
+    "Book an appointment at Sket Dental Studio. Find our address, opening hours and contact details.",
 };
 
 export default function Contact() {
@@ -32,12 +32,12 @@ export default function Contact() {
                 Visit us
               </p>
               <address className="mt-4 font-display text-2xl not-italic leading-snug">
-                12 Meridian Lane
+                Kebelle 11
                 <br />
-                London, W1 4QT
+                Mekelle, Tigray
               </address>
               <p className="mt-4 text-sm leading-relaxed text-cream/70">
-                Two minutes from Bond Street station. Step-free access and
+                Two minutes from Kedamay weyane. Step-free access and
                 on-street parking after 6:30pm.
               </p>
             </div>
@@ -69,16 +69,16 @@ export default function Contact() {
               </p>
               <div className="mt-4 space-y-3 text-sm">
                 <a
-                  href="tel:+442071234567"
+                  href="tel:+251 928820425"
                   className="block font-display text-2xl transition-colors hover:text-clay"
                 >
-                  +44 20 7123 4567
+                  +251 928820425
                 </a>
                 <a
                   href="mailto:hello@albadental.co"
                   className="block font-semibold text-clay hover:underline"
                 >
-                  hello@albadental.co
+                  hello@sketdental.com
                 </a>
               </div>
             </div>

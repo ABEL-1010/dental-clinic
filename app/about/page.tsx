@@ -3,7 +3,7 @@ import Link from "next/link";
 import Reveal from "@/components/Reveal";
 
 export const metadata: Metadata = {
-  title: "About us — Alba Dental Studio",
+  title: "About us — Sket Dental Studio",
   description:
     "Meet the team behind Alba Dental Studio and the philosophy that shapes how we care for every patient.",
 };
@@ -72,7 +72,7 @@ export default function About() {
             <em className="text-clay not-italic"> shouldn&apos;t feel like a punishment</em>.
           </h1>
           <p className="anim anim-3 mt-8 max-w-xl text-lg leading-relaxed text-ink-soft">
-            Founded in 2011 by Dr. Elena Alba, our studio began with a simple
+            Founded in 2011 by Dr. Kibrom, our studio began with a simple
             observation: most people don&apos;t fear dentistry — they fear not
             being listened to. So we built a clinic around listening.
           </p>
