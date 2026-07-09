@@ -1,0 +1,118 @@
+@import "tailwindcss";
+
+@theme {
+  /* ---- Alba Dental palette: porcelain, pine, terracotta ---- */
+  --color-cream: #f7f3ec;
+  --color-cream-2: #efe8db;
+  --color-porcelain: #fdfbf7;
+  --color-pine: #1f3d33;
+  --color-pine-2: #163028;
+  --color-sage: #8aa895;
+  --color-clay: #c96f4a;
+  --color-clay-2: #b85f3b;
+  --color-ink-soft: #4a5d54;
+
+  --font-display: var(--font-gloock);
+  --font-sans: var(--font-hanken);
+}
+
+:root {
+  --hairline: rgba(31, 61, 51, 0.14);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-cream);
+  color: var(--color-pine);
+  font-family: var(--font-sans), sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: var(--color-clay);
+  color: var(--color-porcelain);
+}
+
+/* ---------- grain texture overlay ---------- */
+.grain::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  pointer-events: none;
+  opacity: 0.05;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+/* ---------- hairline helper ---------- */
+.hairline {
+  border-color: var(--hairline);
+}
+
+/* ---------- page-load stagger (hero) ---------- */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(22px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.anim {
+  opacity: 0;
+  animation: fadeUp 0.9s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+.anim-1 { animation-delay: 0.05s; }
+.anim-2 { animation-delay: 0.18s; }
+.anim-3 { animation-delay: 0.31s; }
+.anim-4 { animation-delay: 0.44s; }
+.anim-5 { animation-delay: 0.57s; }
+.anim-6 { animation-delay: 0.7s; }
+
+/* ---------- scroll reveal ---------- */
+.reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.8s cubic-bezier(0.22, 1, 0.36, 1),
+    transform 0.8s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.reveal.in {
+  opacity: 1;
+  transform: none;
+}
+
+/* ---------- marquee ticker ---------- */
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+.marquee-track {
+  animation: marquee 28s linear infinite;
+}
+
+/* ---------- slow float for hero ornament ---------- */
+@keyframes drift {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  50% { transform: translateY(-14px) rotate(2deg); }
+}
+.drift {
+  animation: drift 7s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .anim, .reveal {
+    opacity: 1 !important;
+    transform: none !important;
+    animation: none !important;
+    transition: none !important;
+  }
+  .marquee-track, .drift {
+    animation: none !important;
+  }
+}
