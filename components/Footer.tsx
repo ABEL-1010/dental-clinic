@@ -20,16 +20,16 @@ export default function Footer() {
               Visit
             </p>
             <address className="mt-4 text-sm not-italic leading-7 text-cream/80">
-              12 Meridian Lane
+              11 Kebelle Street
               <br />
-              London, W1 4QT
+              Mekelle, Tigray
               <br />
               <a href="tel:+251 928820425" className="hover:text-clay">
                 +251 928820425
               </a>
               <br />
-              <a href="mailto:hello@albadental.co" className="hover:text-clay">
-                hello@albadental.co
+              <a href="mailto:abeldemozt123@gmail.com" className="hover:text-clay">
+                abeldemozt123@gmail.com
               </a>
             </address>
           </div>
