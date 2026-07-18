@@ -87,15 +87,6 @@ body {
   transform: none;
 }
 
-/* ---------- marquee ticker ---------- */
-@keyframes marquee {
-  from { transform: translateX(0); }
-  to { transform: translateX(-50%); }
-}
-.marquee-track {
-  animation: marquee 28s linear infinite;
-}
-
 /* ---------- slow float for hero ornament ---------- */
 @keyframes drift {
   0%, 100% { transform: translateY(0) rotate(0deg); }
@@ -112,7 +103,7 @@ body {
     animation: none !important;
     transition: none !important;
   }
-  .marquee-track, .drift {
+  .drift {
     animation: none !important;
   }
 }
