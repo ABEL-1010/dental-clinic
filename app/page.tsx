@@ -158,24 +158,6 @@ export default function Home() {
         </div>
       </section>
 
-      <section>
-        {/* ticker */}
-        <div className="overflow-hidden border-y hairline bg-porcelain py-3.5">
-          <div className="marquee-track flex w-max gap-10 whitespace-nowrap">
-            {[...tickerItems, ...tickerItems, ...tickerItems, ...tickerItems].map(
-              (item, i) => (
-                <span
-                  key={i}
-                  className="flex items-center gap-10 text-sm font-medium tracking-wide text-ink-soft"
-                >
-                  {item} <span className="text-clay">✦</span>
-                </span>
-              )
-            )}
-          </div>
-        </div>
-      </section>
-
       {/* ================= SERVICES ================= */}
       <section className="mx-auto max-w-6xl px-5 py-24 sm:px-8">
         <Reveal>
