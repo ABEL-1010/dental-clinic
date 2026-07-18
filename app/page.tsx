@@ -56,14 +56,6 @@ const testimonials = [
   },
 ];
 
-const tickerItems = [
-  "Same-day emergency care",
-  "0% finance available",
-  "Open Saturdays",
-  "5,000+ smiles treated",
-  "Anxiety-friendly clinic",
-];
-
 export default function Home() {
   return (
     <>
