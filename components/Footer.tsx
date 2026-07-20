@@ -70,7 +70,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-14 flex flex-col items-start justify-between gap-4 border-t border-cream/10 pt-6 text-xs text-cream/50 sm:flex-row">
-          <p>© {new Date().getFullYear()} Alba Dental Studio. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Sket Dental Clinic. All rights reserved.</p>
           <p>Registered with the General Dental Council</p>
         </div>
       </div>

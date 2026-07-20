@@ -75,7 +75,7 @@ export default function Contact() {
                   +251 928820425
                 </a>
                 <a
-                  href="mailto:hello@albadental.co"
+                  href="mailto:hello@sketdental.com"
                   className="block font-semibold text-clay hover:underline"
                 >
                   hello@sketdental.com

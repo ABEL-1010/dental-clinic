@@ -16,7 +16,7 @@ const hanken = Hanken_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: "Alba Dental Studio — A calmer kind of dentistry",
+  title: "Sket Dental Clinic — A calmer kind of dentistry",
   description:
     "Modern, gentle dental care in the heart of the city. Cosmetic dentistry, orthodontics, implants and family care — all under one calm roof.",
 };

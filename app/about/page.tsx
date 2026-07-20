@@ -3,9 +3,9 @@ import Link from "next/link";
 import Reveal from "@/components/Reveal";
 
 export const metadata: Metadata = {
-  title: "About us — Sket Dental Studio",
+  title: "About us — Sket Dental Clinic",
   description:
-    "Meet the team behind Alba Dental Studio and the philosophy that shapes how we care for every patient.",
+    "Meet the team behind Sket Dental Clinic and the philosophy that shapes how we care for every patient.",
 };
 
 const values = [
@@ -30,9 +30,9 @@ const values = [
 const team = [
   {
     initials: "EA",
-    name: "Dr. Elena Alba",
+    name: "Dr. Elena Sket",
     role: "Founder & Principal Dentist",
-    bio: "20 years in restorative dentistry. Founded Alba to prove dental care could feel human.",
+    bio: "20 years in restorative dentistry. Founded Sket to prove dental care could feel human.",
   },
   {
     initials: "JO",
@@ -68,7 +68,7 @@ export default function About() {
             About us
           </p>
           <h1 className="anim anim-2 mt-4 max-w-3xl font-display text-5xl leading-[1.08] tracking-tight sm:text-6xl">
-            We started Alba because going to the dentist
+            We started Sket because going to the dentist
             <em className="text-clay not-italic"> shouldn&apos;t feel like a punishment</em>.
           </h1>
           <p className="anim anim-3 mt-8 max-w-xl text-lg leading-relaxed text-ink-soft">

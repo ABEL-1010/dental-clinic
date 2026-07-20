@@ -38,7 +38,7 @@ const services = [
 const testimonials = [
   {
     quote:
-      "I avoided dentists for ten years out of fear. The team at Alba talked me through every step — I actually look forward to my check-ups now.",
+      "I avoided dentists for ten years out of fear. The team at Sket talked me through every step — I actually look forward to my check-ups now.",
     name: "Sarah M.",
     detail: "Patient for 3 years",
   },
@@ -200,7 +200,7 @@ export default function Home() {
           <Reveal>
             <div>
               <p className="text-xs font-semibold uppercase tracking-[0.2em] text-clay">
-                Why Alba
+                Why Sket
               </p>
               <h2 className="mt-3 font-display text-4xl tracking-tight sm:text-5xl">
                 Built for people who

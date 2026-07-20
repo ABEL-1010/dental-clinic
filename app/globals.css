@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 @theme {
-  /* ---- Alba Dental palette: porcelain, pine, terracotta ---- */
+  /* ---- Sket Dental palette: porcelain, pine, terracotta ---- */
   --color-cream: #f7f3ec;
   --color-cream-2: #efe8db;
   --color-porcelain: #fdfbf7;
