@@ -80,6 +80,35 @@ export default function About() {
         </div>
       </section>
 
+      {/* ---------- featured doctor ---------- */}
+      <section className="mx-auto max-w-6xl px-5 py-20 sm:px-8">
+        <Reveal>
+          <div className="grid gap-10 overflow-hidden rounded-[2rem] bg-porcelain md:grid-cols-2">
+            <div className="relative min-h-[22rem] md:min-h-[28rem]">
+              <Image
+                src="/dr-elena-sket.jpg"
+                alt="Dr. Elena Sket, Founder & Principal Dentist at Sket Dental Clinic"
+                fill
+                className="object-cover"
+              />
+            </div>
+            <div className="flex flex-col justify-center p-8 sm:p-12">
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] text-clay">
+                Founder & Principal Dentist
+              </p>
+              <h2 className="mt-3 font-display text-4xl tracking-tight sm:text-5xl">
+                Dr. Elena Sket
+              </h2>
+              <p className="mt-6 max-w-md text-base leading-relaxed text-ink-soft">
+                20 years in restorative dentistry. Founded Sket to prove
+                dental care could feel human — leading every clinician on
+                the team by example, one patient at a time.
+              </p>
+            </div>
+          </div>
+        </Reveal>
+      </section>
+
       {/* ---------- stats band ---------- */}
       <section className="border-y hairline bg-porcelain">
         <div className="mx-auto grid max-w-6xl grid-cols-2 gap-8 px-5 py-12 sm:px-8 md:grid-cols-4">
